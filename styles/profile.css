@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-family: Poppins, Arial;
+    font-size: 24px;
+}
+
+.all-items{
+    border-color: red;
+    border-width: 2px;
+    
+}
+
+.netflix-profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    gap: 30px;
+   
+    
+}
+
+.who-watching{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: white;
+   font-family: Poppins, Arial;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   
+   
+   font-size: 51px;
+}
+
+.chennai-profile , .pune-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.chennai{
+    width: auto;
+}
+
+.pune-profile-img , .chennai-profile-img{
+    height: 200px;
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pune-profile-img:hover, .chennai-profile-img:hover{
+    transform: scale(1.1);
+}

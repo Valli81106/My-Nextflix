@@ -1,0 +1,201 @@
+.header{
+ 
+ background-color: black;
+ display: flex;
+ gap: 70px;
+
+ height: 50px;
+ position: fixed;
+ top: 0;
+ right: 0;
+ left: 0;
+z-index: 100;
+}
+
+.Netflix-header{
+  
+  font-family: bebas neue;
+  font-size: 27px;
+  margin-left: 20px;
+  color: red;
+
+}
+
+.main-valli{
+   height: 500px;
+   width: 100%;
+   object-fit: cover;
+  position: relative;
+  }
+
+  .header-block{
+    position: absolute;
+    bottom: -218px;
+    margin-left: 110px;
+    
+  }
+
+  .left-header{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+
+  .right-header{
+    flex: end;
+    display: flex;
+    position:absolute;
+    right: 25px;
+    top: 7px;
+    justify-content: end;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .search-icon{
+    height: 30px;
+    width: 30px;
+  }
+
+  .profile-img{
+    height: 30px;
+    width: 30px;
+  }
+  .chennai{
+    font-family: bebas neue, arial;
+    font-size: 28px;
+    margin-top: 35px;
+    text-shadow: 0 0 2px white, 0 0 3px white; 
+  }
+
+  .main-title{
+    font-size: 50px;
+    font-weight:500;
+    margin-top: 5px ;
+  }
+
+  .details{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.checked{
+  margin-right: 3px;
+  color: orange;
+}
+
+.one{
+  color: rgb(228, 3, 3);
+}
+.the-diving-line{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.s1{
+  font-family: bebas neue;
+  font-size: 24px;
+  text-shadow: 0 0 2px red;
+}
+
+.netflix-og{
+  color: white;
+}
+.description{
+  color: white;
+}
+
+.two-buttons{
+  margin-top: 20px;
+}
+
+.play-button{
+  background-color: rgb(231, 9, 9);
+  color: white;
+  border: none;
+  font-family: poppins;
+  font-size: medium;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.mylist-button{
+background-color: black;
+color: white;
+border-style: solid;
+border-right-color: white;
+border-left-color: white;
+border-bottom-color: white;
+font-size: medium;
+margin-left: 20px;
+}
+
+.overview-row{
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.main-episodes{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 250px;
+  row-gap: 40px;
+  padding-top: 230px;
+  padding-bottom: 50px;
+}
+
+.text{
+  font-size: 21px;
+  font-family: bebas neue ;
+  text-shadow: 0 0 2px white;
+}
+.text-episode{
+  font-size: 23px;
+  font-family: bebas neue ;
+  text-shadow: 0 0 2px white;
+  text-underline-offset: 5px;
+  text-decoration: underline red;
+}
+
+.main-episodes{
+  margin-left: 110px ;
+  margin-top: 50px;
+}
+
+.episode-card{
+  display: flex;
+  flex-direction: row;
+  
+  width: 400px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgba(0,0,0,255), rgba(26,2,0,255) , rgba(85,19,2,255));
+}
+
+.episode-photo{
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 15%;
+}
+
+
+
+
+.episode-number{
+  font-size: 24px;
+  font-weight: 500;
+}
+.episode-date{
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+

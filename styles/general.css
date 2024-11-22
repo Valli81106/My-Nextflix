@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    
+    }
+    p{
+        color: white;
+        font-family: poppins;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    br{
+        color: white;
+    }
